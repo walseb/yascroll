@@ -126,8 +126,7 @@ not be displayed."
                          (const :tag "MS-DOS" pc)))
   :group 'yascroll)
 
-(defcustom yascroll:disabled-modes
-  nil
+(defcustom yascroll:disabled-modes '(image-mode)
   "A list of major-modes where yascroll can't work."
   :type '(repeat symbol)
   :group 'yascroll)
